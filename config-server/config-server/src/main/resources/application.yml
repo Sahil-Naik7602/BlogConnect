@@ -1,0 +1,15 @@
+spring.application.name: config-server
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Sahil-Naik7602/config-server-BlogConnect
+          default-label: main
+server:
+  port: 8000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
