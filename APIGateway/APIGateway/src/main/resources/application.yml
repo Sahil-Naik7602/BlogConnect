@@ -2,4 +2,4 @@ spring:
   application:
     name: APIGateway
   config:
-    import: configserver:http://localhost:8000
+    import: configserver:http://config-server:8000
